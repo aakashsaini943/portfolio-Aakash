@@ -1,6 +1,8 @@
 import React from 'react'
 
-const ProjectCard = ({ title, description, tech = [], image }) => {
+const ProjectCard = ({ item}) => {
+    const { title, description, tech, image } = item;
+    console.log(item);
   return (
     <div className='bg-dark-300 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
         <img src={image} alt={title} className='w-full h-60 object-cover'/>

@@ -14,9 +14,10 @@ const Home = () => {
       <About/>
       <Skills/>
       <Project/>
+      <Work/>
       <Contact/>
     </div>
   );
 };
 
-export default Home
+export default Home;

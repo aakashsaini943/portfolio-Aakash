@@ -48,7 +48,7 @@ export const skills = [
     title: 'Backend Development',
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    tags: ['Node.js', 'Express', 'Django', ]
   },
   {
     title: 'Database Management',
@@ -72,7 +72,7 @@ export const skills = [
     title: 'Tools & Technologies',
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    tags: ['Git & GitHub', 'Webpack', 'Figma', ]
   }
 ];
 

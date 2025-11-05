@@ -8,11 +8,11 @@ const About = () => {
         <div className='container mx-0 px-6 '>
             {/* heading */}
             <h2 className='text-3xl font-bold text-center mb-4'>About</h2>
-            <span className='text-purple '>Me</span>
+            <span className='text-purple text-center '>Me</span>
             <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>Get to know more about my background and passion </p>
             {/* image + journey*/}
             
-            <div className='flex flex-col md:fle-row items-center gap-12'>
+            <div className='flex  md:fle-row items-center gap-12'>
                 {/* image */}
               <div className='md:w-1/2 rounded-2xl overflow-hidden'>
               <motion.img 
