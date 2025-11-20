@@ -13,11 +13,11 @@ const Work = () => {  // Changed to capital W for component naming convention
       className='py-20 bg-dark-200'
     > 
       <div className='container mx-auto px-6'>
-        <h2 className='text-3xl font-bold mb-4'>
+        <h2 className='text-3xl font-bold text-center mb-6' >
           Work  {/* Capitalized "work" */}
           <span className='text-purple'>Experience</span>
         </h2>
-        <p className='text-gray-400 text-center max-w-2xl mx-auto'>My professional journey so far</p>
+        <p className='text-gray-400 text-center max-w-2xl mx-auto mb-2.5'>My professional journey</p>
 
         <div className='max-w-3xl mx-auto'>
           {/* Removed empty space-y-12 div */}
